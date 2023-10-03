@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 20px;
+  border-bottom: 1px solid #757575;
+}
+
+.logo {
+  width: 100px;
+}
+
+.title {
+  margin: 0;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+#article-list {
+  padding: 0 20px;
+}
+
+#article-list article {
+  padding: 12px 0;
+}
+
+#article-list article:not(:first-child) {
+  border-top: 1px solid #aeaeae;
+}
+
+#article-list article h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+#article-list article p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 20px;
+  border-top: 1px solid #757575;
+}
