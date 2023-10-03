@@ -1,0 +1,13 @@
+.border-grey {
+  border-color: rgba(0, 0, 0, 0.125) !important;
+}
+
+.top-header__logo {
+  width: 100px;
+  height: 80px;
+}
+
+.jumbotron-image {
+  height: 280px;
+  object-fit: cover;
+}
