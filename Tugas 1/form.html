@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garuda Cyber Institute</title>
+  </head>
+  <body>
+    <h2>Buat Account Baru!</h2>
+    <form action="./welcome.html">
+      <h3>Sign Up Form</h3>
+      <div>
+        <label for="firstName">First Name:</label><br><br>
+        <input type="text" name="firstName" id="firstName" required>
+      </div><br>
+      <div>
+        <label for="lastName">Last Name:</label><br><br>
+        <input type="text" name="lastName" id="lastName" required>
+      </div><br>
+      <div>
+        <label>Gender:</label><br><br>
+        <div>
+          <input type="radio" name="gender" id="male" value="Male" required>
+          <label for="male">Male</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="female" value="Female" required>
+          <label for="female">Female</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="other" value="Other" required>
+          <label for="other">Other</label>
+        </div>
+      </div><br>
+      <div>
+        <label>Nationality:</label><br><br>
+        <select name="nationality" id="nationality" required>
+          <option value="Indonesian">Indonesian</option>
+          <option value="Malaysian">Malaysian</option>
+          <option value="Singaporean">Singaporean</option>
+        </select>
+      </div><br>
+      <div>
+        <label>Language Spoken:</label><br><br>
+        <div>
+          <input type="checkbox" name="language" id="indonesia" value="Indonesia"required>
+          <label for="indonesia">Indonesia</label>
+        </div>
+        <div>
+          <input type="checkbox" name="language" id="english" value="English" required>
+          <label for="english">English</label>
+        </div>
+        <div>
+          <input type="checkbox" name="language" id="other-language" value="Other" required>
+          <label for="other-language">Other</label>
+        </div>
+      </div><br>
+      <div>
+        <label>Bio:</label><br><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" required></textarea>
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </body>
+</html>
